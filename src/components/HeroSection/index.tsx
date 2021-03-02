@@ -42,7 +42,7 @@ const HeroSection: FC = ():ReactElement => {
                     <div className="col-span-2 sm:col-span-1 mb-8">
                         <h1 className="text-6xl font-extrabold font-secondary"> Cari Cari</h1>
                         <h2 className="mt-3">
-                            Live from there sofa to yours. Get closer to your favorite artists,<span className="block">and never miss out.</span> 
+                            Live from there sofa to yours. Get closer to your favorite artists,<span className="inline md:block">and never miss out.</span> 
                         </h2>
                     </div>
                     
