@@ -81,7 +81,7 @@ const MainSection: React.FC = ():React.ReactElement =>{
                         {
                             ArtistData.map((artist,idx)=>{
                                 return (
-                                    <div className=" card-gradient-shadow mr-8 last:mr-3 flex-none"><ArtistCard {...artist} /> </div>
+                                    <div id={`${idx}`} className=" card-gradient-shadow mr-8 last:mr-3 flex-none"><ArtistCard {...artist} /> </div>
                                     )
                                 })
                         }
@@ -99,11 +99,11 @@ const MainSection: React.FC = ():React.ReactElement =>{
                             <span className="text-gray-200 items-center hidden sm:flex"><span className="mr-6 tracking-widest ">1/12</span> <span  className="mr-6 text-xl"><BsArrowLeft /></span> <span className="text-xl"><BsArrowRight /></span>  </span>
                         </div>
 
-                        <div className="flex my-16 overflow-x-auto justify-between">
+                        <div className="flex my-16 overflow-x-auto justify-between py-3">
                             {
                                 ReviewData.map((review,idx)=>{
                                     return (
-                                        <div className="flex-1 card-review-gradient-shadow mr-6"> <ReviewCard {...review} /> </div>
+                                        <div id={`${idx}`} className="flex-1 card-review-gradient-shadow mr-6"> <ReviewCard {...review} /> </div>
                                     )
                                 })
                             }
