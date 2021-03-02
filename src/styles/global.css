@@ -1,0 +1,86 @@
+.bg-hero{
+    background-image: url(../assets/images/Img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-navbar{
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.slide-in{
+    animation-name: slideIn;
+    animation-duration: 300ms;
+}
+
+.card-gradient-shadow{
+    position: relative;
+    background-color: #111229;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.card-gradient-shadow::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    top: -6px;
+    right: -6px;
+    background-image: linear-gradient(to bottom right,#2E206D ,#253378);
+    z-index: -1;
+}
+
+.card-review-gradient-shadow{
+    position: relative;
+    background-color: #111229;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.card-review-gradient-shadow::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    top: -6px;
+    right: -6px;
+    background-image: linear-gradient(to bottom right,#276C73 ,#4C8DD8);
+    z-index: -1;
+}
+
+@keyframes slideIn{
+    from {
+        left: 100%;
+        max-width: 0;
+        overflow: hidden;
+    }
+    to {
+        right: 0;
+        max-width: 100vw;
+        overflow: hidden;
+    }
+}
+
+.section-Title{
+    position: relative;
+}
+
+.section-Title::after{
+    content: "";
+    height: 4px;
+    width: 48px;
+    border-radius: 20px;
+    margin-top: 2rem;
+    position: absolute;
+    left: 0;
+    background-color: rgb(52, 52, 211);
+}
+
+.wrapping{
+    min-width: 334px;
+}
