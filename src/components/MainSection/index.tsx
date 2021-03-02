@@ -18,25 +18,25 @@ const ArtistData = [
         img: a1,
         name: "Tapan Patel",
         tag: "Folk",
-        link: "https:tapanpatel.com/"
+        link: "https://pateltapan.com/"
     },
     {
         img: a2,
         name: "Tapan Patel",
         tag: "Folk",
-        link: "https:tapanpatel.com/"
+        link: "https://pateltapan.com/"
     },
     {
         img: a3,
         name: "Tapan Patel",
         tag: "Folk",
-        link: "https:tapanpatel.com/"
+        link: "https://pateltapan.com/"
     },
     {
         img: a4,
         name: "Tapan Patel",
         tag: "Folk",
-        link: "https:tapanpatel.com/"
+        link: "https://pateltapan.com/"
     }
 ]
 
