@@ -49,7 +49,7 @@ const HeroSection: FC = ():ReactElement => {
                 </div>
                 <div className=" grid content-end">
               
-                    <div className="flex mb-3 justify-between  overflow-x-auto">
+                    <div className="flex mb-3 justify-between  overflow-x-auto pb-1">
                     {
                             data.highlights.map((highlight,idx) => {
                                 return (

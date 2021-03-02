@@ -76,8 +76,8 @@ const MainSection: React.FC = ():React.ReactElement =>{
                         <h1 className="text-xl font-medium  section-Title">Upcoming Shows</h1>
                         <span className="text-yellow-500">View All</span>
                     </div>
-                    <div className="overflow-auto">
-                    <div className="flex my-16 justify-between  ">
+                    <div className="my-16">
+                    <div className="flex  justify-between overflow-auto  ">
                         {
                             ArtistData.map((artist,idx)=>{
                                 return (
