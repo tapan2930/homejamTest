@@ -21,13 +21,13 @@ const Navbar: React.FC = ():React.ReactElement =>{
                 <div className="ml-6"><FiShoppingBag /></div>
             </div>
 
-            <div className="flex sm:hidden">
+            <div className="flex sm:hidden text-xl">
             <div className=""><AiOutlineSearch /></div>
             <div className="ml-3"><FiShoppingBag /></div>
             <div onClick={()=> setNavbar(true)} className="ml-6"><FaBars /></div>
             </div>
 
-            <div className={ `${isNavbarOpen? " absolute ":" hidden "}  sm:hidden slide-in inset-0 bg-navbar text-gray-50`}>
+            <div className={ `${isNavbarOpen? " fixed z-40 ":" hidden "}  sm:hidden slide-in inset-0 bg-navbar h-screen text-gray-50`}>
                 <div onClick={()=>  setNavbar(false)} className="absolute right-3 top-3 text-2xl"> <AiOutlineCloseCircle /></div>
                 <div className="flex flex-col items-center my-8">
                     <div className="mt-6 text-2xl">Help</div>

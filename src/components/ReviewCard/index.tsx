@@ -16,7 +16,7 @@ const ReviewCard: React.FC<propType> = ({photo,name,location,flag,comment}):Reac
                     <img src={photo} alt={name +" img"} />
                 </div>
                 <div className="ml-4">
-                    <div className="mb-1"><h3>{name}</h3></div>
+                    <div className="mb-1 font-secondary"><h3>{name}</h3></div>
                     <div className="flex">
                         <div><img src={flag} alt="flag-img"/></div>
                         <div className="text-yellow-400 text-sm ml-4 tracking-wide">{location}</div>

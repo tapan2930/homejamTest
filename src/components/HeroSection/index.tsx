@@ -40,7 +40,7 @@ const HeroSection: FC = ():ReactElement => {
            <div className="container grid grid-rows-2 h-screen">
                 <div className="grid grid-cols-2 content-end">
                     <div className="col-span-2 sm:col-span-1 mb-8">
-                        <h1 className="text-6xl font-extrabold"> Cari Cari</h1>
+                        <h1 className="text-6xl font-extrabold font-secondary"> Cari Cari</h1>
                         <h2 className="mt-3">
                             Live from there sofa to yours. Get closer to your favorite artists, and never miss out.
                         </h2>
